@@ -23,7 +23,9 @@ https://www.kaggle.com/code/debarshichanda/pytorch-blip-training/notebook
 * diffusers
 * transformers
 
-### Example
+### Example of trainning performance
 ![image](https://github.com/tienhaohsieh/Ensemble_NLP/blob/master/trainning.png)
+### Analyse of weighting in between two NLP model.
 ![image](https://github.com/tienhaohsieh/Ensemble_NLP/blob/master/analyse.png)
+### Example of prompt-image pairs (training dataset) from HuggingFace
 ![image](https://github.com/tienhaohsieh/Ensemble_NLP/blob/master/HF_example.png)
