@@ -1,13 +1,15 @@
-# Automatic prompt-image generator
-This is an automatic prompt image pair generator. 
-We use transformers<sup>1</sup> to generate prompt which is later used as an input for StableDiffusionPipeline<sup>2</sup> for imaging.
+# Ensemble NLP model
+This is an example training an ensemble NLP models. 
+The database (prompt-image pair) is from HuggingFace<sup>1</sup>
+The script will training the model with different weighting at the 384 dimensional (encoding vector).
 
-<sup>1</sup>https://pypi.org/project/transformers/  
-<sup>2</sup>https://huggingface.co/docs/diffusers/api/pipelines/stable_diffusion/overview  
+<sup>1</sup>https://huggingface.co/datasets/poloclub/diffusiondb
+
 
 Ref:  
 https://www.kaggle.com/code/mvvppp/sd2-gpt2-prompt-image-gen-dataset-creation  
 https://www.kaggle.com/code/andradaolteanu/img2text-image-generator-using-diffusers  
+https://www.kaggle.com/code/debarshichanda/pytorch-blip-training/notebook  
 
 #### Requirments:
 * PIL
@@ -22,4 +24,6 @@ https://www.kaggle.com/code/andradaolteanu/img2text-image-generator-using-diffus
 * transformers
 
 ### Example
-![image](https://github.com/tienhaohsieh/prompt-image-generator/blob/master/generatorImage.png)
+![image](https://github.com/tienhaohsieh/Ensemble_NLP/blob/master/trainning.png)
+![image](https://github.com/tienhaohsieh/Ensemble_NLP/blob/master/analyse.png)
+![image](https://github.com/tienhaohsieh/Ensemble_NLP/blob/master/HF_example.png)
